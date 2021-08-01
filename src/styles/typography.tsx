@@ -1,35 +1,35 @@
 import {StyleSheet} from 'react-native';
-import {LINE_SPACING} from '~utils/Constants';
+import {SPACING} from '~utils/Constants';
 
 export default StyleSheet.create({
   h1: {
     fontSize: 27,
-    marginBottom: LINE_SPACING,
+    marginBottom: SPACING.appVerticalSpacing,
   },
   h2: {
     fontSize: 19,
-    marginBottom: LINE_SPACING,
+    marginBottom: SPACING.appVerticalSpacing,
   },
   h3: {
     fontSize: 15,
-    marginBottom: LINE_SPACING,
+    marginBottom: SPACING.appVerticalSpacing,
   },
   h4: {
     fontSize: 14,
-    marginBottom: LINE_SPACING,
+    marginBottom: SPACING.appVerticalSpacing,
   },
   h5: {
     fontSize: 13,
-    marginBottom: LINE_SPACING,
+    marginBottom: SPACING.appVerticalSpacing,
   },
   h6: {
     fontSize: 11,
-    marginBottom: LINE_SPACING,
+    marginBottom: SPACING.appVerticalSpacing,
   },
   paragraph: {
     fontSize: 12,
     textAlign: 'justify',
-    marginBottom: LINE_SPACING,
+    marginBottom: SPACING.appVerticalSpacing,
   },
   button: {
     fontSize: 13,
